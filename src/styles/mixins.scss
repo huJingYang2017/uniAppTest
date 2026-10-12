@@ -1,0 +1,6 @@
+@mixin card-surface($background, $border) {
+  background: $background;
+  border: 1px solid $border;
+  border-radius: 16rpx;
+  padding: 24rpx;
+}

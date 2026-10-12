@@ -1,0 +1,49 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^app-(.*)": "@/components/app-$1/app-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "技术栈"
+			}
+		},
+		{
+			"path": "pages/request/index",
+			"style": {
+				"navigationBarTitleText": "luch-request"
+			}
+		},
+		{
+			"path": "pages/store/index",
+			"style": {
+				"navigationBarTitleText": "Pinia"
+			}
+		},
+		{
+			"path": "pages/styles/index",
+			"style": {
+				"navigationBarTitleText": "样式方案"
+			}
+		},
+		{
+			"path": "pages/uview/index",
+			"style": {
+				"navigationBarTitleText": "uView Plus"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app Vue3",
+		"navigationBarBackgroundColor": "#3c9cff",
+		"backgroundColor": "#f5f7fb"
+	}
+}
